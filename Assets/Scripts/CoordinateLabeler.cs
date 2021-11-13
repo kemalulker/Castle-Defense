@@ -5,7 +5,7 @@ using TMPro;
 using System;
 
 [ExecuteAlways]
-public class CoordinatLabeler : MonoBehaviour
+public class CoordinateLabeler : MonoBehaviour
 {
     Vector2Int coordinates = new Vector2Int();
 
