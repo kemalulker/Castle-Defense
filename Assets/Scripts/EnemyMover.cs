@@ -4,21 +4,30 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyMover : MonoBehaviour
-{   
+{
     [SerializeField] List<Waypoint> path = new List<Waypoint>();
-    [SerializeField] float secondsToWait = 1f;
+    [SerializeField] [Range(0f, 5f)] float speed = 1f;
 
     void Start()
     {
-        StartCoroutine(FollowEnemyPath());
+        StartCoroutine(FollowPath());
     }
 
-    IEnumerator FollowEnemyPath()
+    IEnumerator FollowPath()
     {
         foreach (Waypoint waypoint in path)
         {
-            transform.position = waypoint.transform.position;
-            yield return new WaitForSeconds(secondsToWait);
+            Vector3 startingPoint = transform.position;
+            Vector3 endPoint = waypoint.transform.position;
+            float travelPercent = 0f;
+
+            transform.LookAt(endPoint);
+            while (travelPercent < 1f)
+            {
+                travelPercent += Time.deltaTime * speed;
+                transform.position = Vector3.Lerp(startingPoint, endPoint, travelPercent);
+                yield return new WaitForEndOfFrame();
+            }
         }
     }
 }
