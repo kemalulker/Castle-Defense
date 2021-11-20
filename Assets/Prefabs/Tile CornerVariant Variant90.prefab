@@ -13,15 +13,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 939976692360921503, guid: 563d34a6f4aa5aa479b3b57945853b5f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 3.2854881
       objectReference: {fileID: 0}
     - target: {fileID: 939976692360921503, guid: 563d34a6f4aa5aa479b3b57945853b5f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -18.259811
       objectReference: {fileID: 0}
     - target: {fileID: 939976692360921503, guid: 563d34a6f4aa5aa479b3b57945853b5f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 22.062164
       objectReference: {fileID: 0}
     - target: {fileID: 939976692360921503, guid: 563d34a6f4aa5aa479b3b57945853b5f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -29,15 +29,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 939976692360921503, guid: 563d34a6f4aa5aa479b3b57945853b5f, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 939976692360921503, guid: 563d34a6f4aa5aa479b3b57945853b5f, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 939976692360921503, guid: 563d34a6f4aa5aa479b3b57945853b5f, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 939976692360921503, guid: 563d34a6f4aa5aa479b3b57945853b5f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -50,6 +50,26 @@ PrefabInstance:
     - target: {fileID: 939976692360921503, guid: 563d34a6f4aa5aa479b3b57945853b5f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3047343936159328433, guid: 563d34a6f4aa5aa479b3b57945853b5f, type: 3}
+      propertyPath: m_text
+      value: 2,3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3047343936159328433, guid: 563d34a6f4aa5aa479b3b57945853b5f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3047343936159328433, guid: 563d34a6f4aa5aa479b3b57945853b5f, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3047343936159328433, guid: 563d34a6f4aa5aa479b3b57945853b5f, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3047343936159328433, guid: 563d34a6f4aa5aa479b3b57945853b5f, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 5838780040107251369, guid: 563d34a6f4aa5aa479b3b57945853b5f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -73,7 +93,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8437177262068316540, guid: 563d34a6f4aa5aa479b3b57945853b5f, type: 3}
       propertyPath: m_Name
-      value: Tile CornerVariant Variant90
+      value: (2, 3)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 563d34a6f4aa5aa479b3b57945853b5f, type: 3}
